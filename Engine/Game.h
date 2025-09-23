@@ -36,6 +36,20 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
+	int dudeX = 400; 
+	int dudeY = 300;
+
+	bool poo0IsEaten = false; 
+	int poo0X = 300; 
+	int poo0Y = 150;
+	
+	bool poo1IsEaten = false;
+	int poo1X = 100;
+	int poo1X = 500;
+	
+	bool poo2IsEaten = false;
+	int poo2Y = 600;
+	int poo2Y = 400;
 	/********************************/
 private:
 	MainWindow& wnd;
